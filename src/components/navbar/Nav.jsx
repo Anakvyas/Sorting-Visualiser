@@ -1,6 +1,6 @@
 import './Nav.css';
 import { Button } from '@mui/material';
-import SliderSizes from './slider/slider';
+import SliderSizes from "./Slider/slider";
 import { useState, useEffect } from 'react';
 import SORTBUTTON from './BUTTONS/buttons';
 import Title from './Title';
