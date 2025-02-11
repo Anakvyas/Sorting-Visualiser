@@ -1,0 +1,160 @@
+.navbar{
+   background-color: rgb(244, 242, 242);
+    height: 8rem;
+    margin: 0;
+    box-shadow: 4px 5px 15px rgb(170, 169, 169);
+    display: flex;
+    width: auto;
+    padding: 1rem;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+.slider1{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:0.75rem;
+    padding-left: 1rem;
+}
+
+.generate{
+    margin-left: 100px;
+    width: 900px;
+    height: 2.4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.sort{
+    display: flex;
+    flex-direction: row;
+    margin-top: 67px;
+    margin-left: 50px;
+}
+.sort Button{
+    margin-right: 20px;
+    width: 170px;
+    height: 1.8rem;
+}
+
+.Title{
+    margin-top: -10px;
+    font-family: century;
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-left: -180px;
+    font-style: italic;
+}
+
+.time{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: rgb(24, 17, 26);
+    margin-left: 84px;
+    font-weight: 500;
+}
+.time input{
+    height: 2rem;
+    border: 1px solid rgb(0, 60, 255);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* Media query for screens with a max width of 768px (tablets and phones) */
+@media (max-width: 768px) {
+    .footer {
+        height: 4rem;
+        font-size: 0.9rem;
+    }
+
+    .text {
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        margin-top: 5px;
+    }
+
+    .array-container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .navbar {
+        height: 6rem;
+        padding: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .generate {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .sort {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .sort Button {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .Title {
+        font-size: 1.8rem;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .array-bar {
+        width: 5px;
+        margin: 0 1px;
+    }
+}
+
+/* Media query for screens with a max width of 480px (smaller phones) */
+@media (max-width: 480px) {
+    .footer {
+        height: 3.5rem;
+        font-size: 0.8rem;
+    }
+
+    .navbar {
+        height: 5rem;
+    }
+
+    .generate {
+        width: 100%;
+    }
+
+    .sort Button {
+        width: 100%;
+    }
+
+    .array-container {
+        height: 250px;
+    }
+
+    .array-bar {
+        width: 4px;
+    }
+
+    .Title {
+        font-size: 1.6rem;
+    }
+}

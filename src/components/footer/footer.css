@@ -1,0 +1,29 @@
+.footer{
+    background: #d0cece;
+    height: 5.3rem;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-style: italic;
+    padding: 5px;
+    box-shadow: 3px 6px 30px black;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin-top: 8px;
+}
+.icon i{
+    padding-left: 16px;
+    height: 30px;
+    text-decoration: none;
+}

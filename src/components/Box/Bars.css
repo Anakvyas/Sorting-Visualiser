@@ -1,0 +1,14 @@
+.array-bar {
+    /* background-color: rgb(81, 145, 209); */
+    margin: 0 2px;
+    width: 10px;
+    transition: height 0.2s ease,background-color 0.5s ease;
+}
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    width: 80%;
+    margin: 20px auto;
+}
